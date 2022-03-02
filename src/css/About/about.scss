@@ -1,0 +1,9 @@
+.about-page {
+    &--about-img {
+        img {
+            height: 350px;
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}

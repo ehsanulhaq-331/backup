@@ -1,0 +1,152 @@
+.hero-section {
+
+    padding-top: 50px;
+    position: relative;
+    @media (min-width: 768px) {
+        
+        padding-top: 0;
+  
+    }
+    .hero-content {
+        h1 {
+            font-size: 40px;
+            color: #fff; 
+            font-weight: 700;
+        }
+        p {
+            font-size: 16px;
+            color: #fff;   
+        }
+    }
+    .owl-prev {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: translate(0);
+        
+        
+        span {
+            display: inline-block;
+            font-size: 40px;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            background-color: $dark;
+            line-height: 40px;
+        }
+    }
+    .owl-next {
+        position: relative;
+        right: 0;
+        top: 0;
+        font-size: 40px;
+        color: #fff;
+        transform: translate(0);
+        
+        span {
+            display: inline-block;
+            font-size: 40px;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            background-color: $dark;
+            line-height: 40px;
+        }
+    }
+
+}
+
+
+
+.car-group {
+    height: auto;
+    @media (min-width: 768px) {
+        height: 450px; 
+    }
+    &--img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+.app-store-img {
+    width: 150px;
+    height: 42px;
+}
+.google-play-img {
+    width: 164px;
+    height: 76px;
+}
+.page-bg-1 {
+    background-image: url("../../images/car-2.jpg");
+}
+.page-bg-2 {
+    background-image: url("../../images/car-3.jpg");
+}
+.page-bg-3 {
+    background-image: url("../../images/contact-us.jpg");
+}
+.page-bg-4 {
+    background-image: url("../../images/about-us.jpg")  
+}
+.inner-hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+    @media (min-width: 768px) {
+        min-height: 60vh;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        background: rgba(255,74,0,0.6);
+        z-index: 99;
+    }
+    &--title {
+        position: relative;
+        z-index: 99999;
+        font-size: 80px;
+        text-transform: uppercase;
+    }
+}
+
+
+.bg-how-it-work {
+    background:linear-gradient(0deg, rgba(22, 119, 188, 0.9), rgba(22, 119, 200, 0.9)), url("../../images/slider-6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom;
+}
+.bg-faq {
+    background:linear-gradient(0deg, rgba(22, 119, 188, 0.9), rgba(22, 119, 200, 0.9)), url("../../images/slider-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+.bg-about-us {
+    background:linear-gradient(0deg, rgba(22, 119, 188, 0.9), rgba(22, 119, 200, 0.9)), url("../../images/slider-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+.bg-contact-us {
+    background:linear-gradient(0deg, rgba(22, 119, 188, 0.9), rgba(22, 119, 200, 0.9)), url("../../images/slider-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+
+.arrow-1 {
+    position: relative;
+    &::before {
+        
+
+    }
+}
+
+

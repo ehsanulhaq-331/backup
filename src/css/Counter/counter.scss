@@ -1,0 +1,13 @@
+.counter-section{
+    &--text {
+        h3 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 25px;
+            font-weight: 500;
+            margin-top: 7px;
+        }
+    }
+}

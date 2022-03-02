@@ -1,0 +1,48 @@
+html, body {
+  height:100%;
+}
+body {
+ background-image: url( '../images/index_bg.jpeg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+label {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+#header {
+  background-color: #ffffff55;
+  height:50px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
+
+ #map-area {
+   display: none;
+ }
+
+.btn-primary {
+  background-color: #ff4a00 !important;
+  border-color: #ff4a00 !important;
+}
+.bg-primary {
+  background-color: #ff4a00 !important;
+}
+.btn-primary:hover {
+  background-color: #ff4a00 !important;
+  border-color: #ff4a00 !important;
+}
+.btn-primary:active {
+  border-color: #ff4a00 !important; 
+}
+.btn-primary:focus {
+  border-color: #ff4a00 !important;
+  box-shadow: none !important;
+}

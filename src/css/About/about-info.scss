@@ -1,0 +1,28 @@
+.about-info {
+    position: relative;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/about-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h3 {
+        color: $white;
+    }
+    p {
+        color: $white;
+    }
+}
+.about-info-car {
+    &--img {
+        position: relative;
+        right: 0;
+        transform: translate(0, -50%);
+        top: 50%;
+        max-width: 100%;
+        @media (min-width: 1200px) {
+            position: absolute;
+            right: 0;
+            transform: translate(0, -50%);
+            top: 50%; 
+            max-width: 52%;
+        }
+    }
+}

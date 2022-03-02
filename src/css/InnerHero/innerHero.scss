@@ -1,0 +1,22 @@
+.inner-page-hero {
+    h1 {
+        color: $white;
+        font-size: 24px;
+        font-weight: 700;
+        @media (min-width: 768px) {
+            font-size: 50px;  
+        }
+    }
+    p {
+        color: $white;
+        font-size: 16px;
+        @media (min-width: 768px) {
+            font-size: 20px;  
+        }
+    }
+    &--image {
+        img {
+            max-width: 100%;
+        }
+    }
+}

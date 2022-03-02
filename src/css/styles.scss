@@ -1,0 +1,25 @@
+@import "../css/Color/color.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../css/Counter/counter.scss";
+@import "../css/Footer/footer.scss";
+@import "../css/Header/header.scss";
+@import "../css/Header/navbar.scss";
+@import "../css/Hero/hero.scss";
+@import "../css/OneApp/oneApp.scss";
+@import "../css/Talkteam/talk-team-section";
+@import "../css/Typography/Typography.scss";
+@import "../css/About/about-info.scss";
+@import "../css/About/about.scss";
+@import "../css/HowItWork/howitwork.scss";
+@import "../css/AppInfo/appInfo.scss";
+@import "../css/Card/appCard.scss";
+@import "../css/InnerHero/innerHero.scss";
+@import "../css/Faq/faq.scss";
+@import "../css/PriceList/priceList.scss";
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
